@@ -1,0 +1,16 @@
+{
+  "extends": ["standard", "airbnb"],
+  "rules": {
+    "semi": ["error", "never"],
+    "space-before-function-paren": ["error", "always"],
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-body-style": ["off"],
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "never",
+      "imports": "never",
+      "exports": "never",
+      "functions": "never"
+    }]
+  }
+}
