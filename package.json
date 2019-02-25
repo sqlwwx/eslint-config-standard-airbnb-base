@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sqlwwx/eslint-config-standard-airbnb#readme",
   "dependencies": {
+    "babel-eslint": "^10",
     "eslint-config-airbnb": "^17",
     "eslint-config-standard": "^12",
     "eslint-plugin-import": "^2",
