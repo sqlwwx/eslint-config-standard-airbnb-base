@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['standard', 'airbnb'],
+  extends: ['standard', 'airbnb-base'],
   rules: {
     semi: ['error', 'never'],
     'space-before-function-paren': ['error', 'always'],
@@ -13,7 +13,6 @@ module.exports = {
       imports: 'never',
       exports: 'never',
       functions: 'never'
-    }],
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }]
+    }]
   }
 }
