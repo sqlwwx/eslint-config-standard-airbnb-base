@@ -3,6 +3,6 @@
 ```
 module.exports = {
   "parser": "babel-eslint",
-  "extends": ["standard-airbnb"]
+  "extends": ["standard-airbnb-base"]
 };
 ```
